@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function exiba(){
+        var n = console.log(numeroPensado);
+        return n;
+    }
+var numeroPensado = Math.round(Math.random()*10);
+var chute = parseInt(prompt("Digite um número de 1 a 10 "))
+
+if(chute < 0 || chute > 10 ){
+    mostra("Esse número, não faz parte do intervalo solicitado...");
+    
+}
+
+if(chute ==numeroPensado){
+    mostra ("Você acertou!!!");
+   }
+else{
+    mostra("Você errou!!! O número pensado foi " + numeroPensado);
+    
+ }
+
+
+</script>
