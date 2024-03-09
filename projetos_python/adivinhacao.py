@@ -4,8 +4,9 @@ print("***********************************")
 print("*Bem vindo ao jogo de adivinhação.*")
 print("***********************************")
 
-numeroSecreto = 5
+numeroSecreto = randrange(0,11)
 chance = 1
+
 while (chance <=3):
     chute = int(input("Digite um número entre 0 e 10 \n"))
     print(f"Tentativa {chance} de 3.")
