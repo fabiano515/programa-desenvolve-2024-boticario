@@ -11,7 +11,7 @@ chance = 1
 while chance <= tentativas:
     chute = int(input("Digite um número entre 0 e 10 \n"))
     print(f"Tentativa {chance} de 3.")
-    print("Você digitou ", chute)
+    print(f"Você digitou {chute} ")
 
     acerto = chute == numeroSecreto
     maior = chute > numeroSecreto
