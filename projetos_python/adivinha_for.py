@@ -19,6 +19,7 @@ for chance in range(1, tentativas+1):
 
     if acerto:
         print("Você acertou!")
+        break
     else:
         if maior:
             print("Seu chute foi maior que o número secreto, você errou!")
