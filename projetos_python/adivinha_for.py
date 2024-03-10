@@ -6,9 +6,9 @@ print("***********************************")
 
 numeroSecreto = randrange(0, 11)
 tentativas = 3
-#chance = 1
+# chance = 1
 
-for chance  in range (1,tentativas+1):
+for chance in range(1, tentativas+1):
     chute = int(input("Digite um número entre 0 e 10 \n"))
     print(f"Tentativa {chance} de 3.")
     print(f"Você digitou {chute}")
@@ -24,4 +24,4 @@ for chance  in range (1,tentativas+1):
             print("Seu chute foi maior que o número secreto, você errou!")
         elif menor:
             print("Seu chute foi menor que o número secreto, você errou!")
-    #chance = chance + 1
+    # chance = chance + 1
