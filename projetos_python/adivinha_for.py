@@ -8,7 +8,7 @@ numeroSecreto = randrange(0, 11)
 tentativas = 3
 #chance = 1
 
-for chance  in range (1,3 +1):
+for chance  in range (1,tentativas+1):
     chute = int(input("Digite um número entre 0 e 10 \n"))
     print(f"Tentativa {chance} de 3.")
     print(f"Você digitou {chute}")
